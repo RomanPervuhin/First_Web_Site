@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ publication.title }}{% endblock %}
+
+{% block body %}
+    <h2 class="Title_of_publication">{{ publication.title }}</h2>
+    <div id="settings">
+        <a href="/publications/{{ publication.id }}/del" class="del">🗑Delete🗑</a><br/><br/>
+        <a href="/publications/{{ publication.id }}/edit"  class="edit">⚙Edit⚙</a>
+    </div>
+    <div id="Publication_page">
+        <p class="authors_name_of_publication">{{ publication.authors_name }}</p>
+        <p class="date_of_publication">{{ publication.date }}</p>
+        <p class="text_of_publication">{{ publication.text }}</p>
+    </div>
+{% endblock %}

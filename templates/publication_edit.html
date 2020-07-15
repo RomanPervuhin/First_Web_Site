@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Edit publication{% endblock %}
+
+{% block body %}
+    <h2 id="Title_of_page">Edit</h2>
+    <p id="Intro_of_page">Here you can edit the publication⚙🛠</p>
+    <div id="edit_box">
+        <form method="POST">
+            <input type="password" name="password" class="edit_password" placeholder="Password"/><br/><br/>
+            <input type="text" name="title" placeholder="Title" value="{{ publication.title }}" class="edit_title"/><br/><br/>
+            <input type="text" name="authors_name" placeholder="Your nickname" value="{{ publication.authors_name }}" class="edit_nickname"/><br/><br/>
+            <input type="text" name="intro" placeholder="A brief description of your publication" value="{{ publication.intro }}" class="edit_intro"/><br/><br/>
+            <textarea name="text" placeholder="Publication text" class="edit_text">{{ publication.text }}</textarea><br/><br/>
+            <input type="submit" value="Complete" class="edit_button">
+        </form>
+    </div>
+{% endblock %}

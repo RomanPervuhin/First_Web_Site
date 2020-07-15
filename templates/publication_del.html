@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Password confirmation{% endblock %}
+
+{% block body %}
+    <h2 id="Title_of_page">Password confirmation</h2>
+    <p id="Intro_of_page">Confirm password to delete✔😉</p>
+    <div id="confirmation_box">
+        <form method="POST">
+            <input type="password" name="password1" class="confirm_password" placeholder="Password"/><br/><br/>
+        </form>
+    </div><br/>
+    <p class="intro_of_delete">Click enter to delete❌🗑</p>
+{% endblock %}

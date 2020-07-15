@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}Publications{% endblock %}
+
+{% block body %}
+    <h2 id="Title_of_page">Publications</h2>
+    <p id="Intro_of_page">Here are all publications created on this site👌</p>
+   {% if publications|length > 0 %}
+        <table id="Table">
+            <thead>
+                <th id="ThTable">ID</th>
+                <th id="ThTable">Author</th>
+                <th id="ThTable">Publication</th>
+                <th id="ThTable">Intro</th>
+                <th id="ThTable">Date</th>
+            </thead>
+                {% for publication in publications %}
+                    <tr>
+                        <td>{{ publication.id }}</td>
+                        <td>{{ publication.authors_name }}</td>
+                        <td><a href="/publications/{{ publication.id }}" class="publication_link">{{ publication.title }}</a></td>
+                        <td>{{ publication.intro }}</td>
+                        <td>{{ publication.date }}</td>
+                    </tr>
+                {% endfor %}
+            
+        </table>
+    {% else %}
+        <p id="Dop" class="Non_publications">Unfortunately, there are no publications yet😢</p>  
+    {% endif %}  
+{% endblock %}

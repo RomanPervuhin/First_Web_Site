@@ -1,0 +1,483 @@
+body {
+    background-color: #ffffff;   
+}
+
+#Title_of_page {
+    text-align: center;
+    font-size: 70px;
+    font-family: Century Gothic;
+    font-weight: lighter;
+    color: #2f3542;
+    padding: 0px;
+}
+#Intro_of_page {
+    text-align: center;
+    font-size: 30px;
+    font-family: Century Gothic;
+    font-weight: normal;
+    color: #2f3542;
+}
+#Dop.Non_publications {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Century Gothic;
+    font-weight: normal;
+    color: #2f3542;
+}
+#links_box {
+    margin-left: 178px;
+    font-size: 25px;
+    font-family: Century Gothic;
+    font-weight: normal;
+    color: #2f3542;
+    float: bottom;
+    margin-top: 18px;
+    word-spacing: 100px;
+}
+.a3 {
+    white-space: normal;
+    word-spacing: normal;
+}
+
+.a4 {
+    white-space: normal;
+    word-spacing: normal;
+}
+
+.a1 {
+    font-size: 25px;
+    text-decoration: none;
+    transition-duration: 0.45s;
+}
+
+.a2 {
+    font-size: 25px;
+    text-decoration: none;
+    transition-duration: 0.45s;
+}
+
+.a3 {
+    font-size: 25px;
+    text-decoration: none;
+    transition-duration: 0.45s;
+}
+
+.a4 {
+    font-size: 25px;
+    text-decoration: none;
+    transition-duration: 0.45s;
+}
+
+.a1:hover {
+    text-decoration: none;
+    font-size: 40px;
+}
+a.a2:hover {
+    text-decoration: none;
+    font-size: 40px;
+}
+a.a3:hover {
+    text-decoration: none;
+    font-size: 40px;
+}
+a.a4:hover {
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.a1:visited {
+    text-decoration: none;
+    color: #2f3542;
+}
+
+.a2:visited {
+    text-decoration: none;
+    color: #2f3542;
+}
+
+.a3:visited {
+    text-decoration: none;
+    color: #2f3542;
+}
+
+.a4:visited {
+    text-decoration: none;
+    color: #2f3542;
+}
+
+#ThTable {
+    font-family: Century Gothic;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: #2f3542;
+    font-weight: bold;
+    border: 3px solid #2f3542;
+    border-radius: 100px;
+}
+
+#Table {
+    margin-top: 50px;
+    margin-left: 25px;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: #2f3542;
+    font-weight: lighter;
+}
+
+.publication_link{
+    font-size: 25px;
+    color: #2f3542;
+    transition-duration: 1s;
+}
+
+.publication_link :hover{
+    color: #2f3542;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+.text_of_publication {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    font-family: Century Gothic;
+    color: #2f3542;
+    font-size: 25px;
+}
+.authors_name_of_publication {
+    font-size: 30px;
+    font-family: Century Gothic;
+    text-align: center;
+    color: #2f3542;
+}
+
+.date_of_publication {
+    font-size: 25px;
+    font-family: Century Gothic;
+    text-align: center;
+    color: #2f3542;
+}
+
+.Title_of_publication {
+    font-size: 50px;
+    font-family: Century Gothic;
+    text-align: center;
+    color: #2f3542;
+    font-weight: lighter;
+}
+
+#create_box {
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 1340px;
+}
+
+.create_password {
+    margin-left: 420px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+    color: #57606f;
+}
+
+.create_title {
+    margin-left: 420px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+    color: #57606f;
+}
+.create_nickname {
+    margin-left: 420px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: #57606f;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+}
+.create_intro {
+    margin-left: 420px;
+    width: 500px;
+    min-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: #57606f;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+}
+
+.create_text {
+    padding: 0px;
+    min-width: 1330px;
+    max-width: 1330px;
+    min-height: 500px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: #57606f;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+    vertical-align: middle;
+    overflow: auto;
+}
+
+.create_text textarea {
+    color: #57606f;
+}
+
+.create_button{
+    width: 200px;
+    height: 40px;
+    margin-left: 575px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: #57606f;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+    margin-bottom: 50px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #57606f;
+   } 
+input[type="text"]::-moz-placeholder {
+    color: #57606f;
+   }
+input.create_text::-webkit-input-placeholder {
+    color: #57606f;
+   } 
+input.create_text::-moz-placeholder {
+    color: #57606f;
+   }
+
+.contacts_list {
+    font-size: 30px;
+    font-family: Century Gothic;
+    color: #2c3e2c;
+}  
+
+#Contacts_list {
+    margin-left: 420px;
+    margin-top: 80px;
+}
+
+.del {
+   /* margin-left: 550px;*/
+    text-align: center;
+    font-size: 30px;
+    font-family: Century Gothic;
+    color: #2f3542;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+    text-decoration: none;
+    word-spacing: 10px;
+}
+.edit {
+    margin-left: 18px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Century Gothic;
+    color: #2f3542;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+    text-decoration: none;
+    word-spacing: 10px;
+}
+
+#settings {
+    width: 150px;
+    margin-left: 1060px;
+    margin-bottom: 100px;
+    position: absolute;
+}
+
+#edit_box {
+    margin-left: 0px;
+    margin-top: 50px;
+    width: 1340px;
+}
+
+.edit_password {
+    margin-left: 420px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+    color: #57606f;
+}
+
+.edit_title {
+    margin-left: 420px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+    color: #57606f;
+}
+.edit_nickname {
+    margin-left: 420px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: #57606f;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+}
+.edit_intro {
+    margin-left: 420px;
+    width: 500px;
+    min-height: 60px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: #57606f;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+}
+
+.edit_text {
+    padding: 0px;
+    min-width: 1330px;
+    max-width: 1330px;
+    min-height: 500px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: #57606f;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+    vertical-align: middle;
+    overflow: auto;
+}
+
+.edit_text textarea {
+    color: #57606f;
+}
+
+.edit_button{
+    width: 200px;
+    height: 40px;
+    margin-left: 575px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    color: #57606f;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+    margin-bottom: 50px;
+}
+
+input[type="text"]::-webkit-input-placeholder {
+    color: #57606f;
+   } 
+input[type="text"]::-moz-placeholder {
+    color: #57606f;
+   }
+input[type="password"]::-webkit-input-placeholder {
+    color: #57606f;
+   } 
+input[type="password"]::-moz-placeholder {
+    color: #57606f;
+   }
+input.edit_text::-webkit-input-placeholder {
+    color: #57606f;
+   } 
+input.edit_text::-moz-placeholder {
+    color: #57606f;
+   }
+
+.home_img_1 {
+    margin-left: 420px;
+    margin-top: 0px;
+    width: 500px;
+    height: 400px;
+    background-color: transparent;
+}
+
+#Title_of_page_error_pass {
+    font-family: Century Gothic;
+    font-size: 70px;
+    text-align: center;
+    color: tomato;
+    font-weight: lighter;
+}
+
+#Intro_of_page_error_pass {
+    font-family: Century Gothic;
+    font-size: 30px;
+    text-align: center;
+    color: #57606f;
+}
+
+.a_error {
+    font-family: Century Gothic;
+    font-size: 25px;
+    text-align: center;
+    color: #57606f;
+    text-decoration: none;
+    margin-left: 630px;
+    transition-duration: 0.45s;
+}
+
+.a_error:hover {
+    font-size: 32px;
+    margin-left: 620px;
+}
+
+.confirm_password {
+    margin-left: 420px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Century Gothic;
+    background-color: transparent;
+    border-radius: 100px;
+    border: 3px solid #57606f;
+    color: #57606f;
+}
+
+.intro_of_delete {
+    font-family: Century Gothic;
+    font-size: 30px;
+    text-align: center;
+    color: #57606f;
+    text-decoration: none;
+    margin-left:10px;
+}
